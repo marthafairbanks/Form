@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Form</title>
+
+		<link href= "css/main.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<form>
+			<div class="first column">
+				<label for="label">FIRST NAME</label>
+				<input name="firstName" class="firstName" type="text" placeholder="Jonathan">
+				
+				<label for="label">LAST NAME</label>			
+				<input name="lastName" class="lastName" type="text" placeholder="Doe">
+				
+				<label for="label">EMAIL ADDRESS</label>
+				<input name="email" class="email" type="text" placeholder="jon@doe.com">
+
+				<label for="label">COUNTRY</label>
+				<select class="country" name="country">
+					<option value="country">Choose a country</option>
+	  				<option value="france">France</option>
+	  				<option value="italy">Italy</option>
+	  				<option value="portugal">Portugal</option>			
+				</select>			
+
+				<label for="label">BIOGRAPHY</label>
+				<textarea name="biography" class="biography" placeholder=""></textarea>	
+			</div>		
+
+			<div class="second column">
+				<label for="label">PHONE NUMBER</label>
+				<input name="phoneNumber" class="phoneNumber" type="text" placeholder="+351 999 999">
+
+				<label for="label">AFFILIATION</label>
+				<textarea name="affiliation" class="affiliation" placeholder=""></textarea>	
+
+				<label for="label">OCCUPATION</label>
+				<select class="occupation" name="occupation" placeholder="">
+	  				<option value="occupation">Choose an occupation</option>
+	  				<option value="wizard">Wizard</option>
+	  				<option value="cosmonaut">Cosmonaut</option>
+	  				<option value="troll">Troll</option>			
+				</select>			
+
+				<label for="label">CAT'S NAME</label>			
+				<input name="catsName" class="catsName" type="text" placeholder="Kitty">
+				
+				<label for="label">FAVORITE GADGET</label>
+				<input name="favoriteGadget" class="favoriteGadget" type="text" placeholder="Annoy-a-tron">			
+			</div>
+
+			<div class="third column">
+				<label for="label">TYPE OF TALENT</label>
+					<select class="talent" name="talent" placeholder="">
+	  					<option value="talent">Choose a talent</option>
+	  					<option value="magic">Slight of hand magic</option>
+	  					<option value="tightrope">Tight rope walker</option>
+	  					<option value="garlic">Vampiresque adversion to garlic</option>
+	  				</select>		
+	  			
+	  			<label for="label">FAVORITE DRINK</label>
+				<input name="favoriteDrink" class="favoriteDrink" type="text" placeholder="Green tea">
+				
+				<label for="label">SPECIAL POWERS</label>
+				<input name="specialPowers" class="specialPowers" type="text" placeholder="Anti-gravity">
+
+				<label for="label">WEAPON OF CHOICE</label>
+				<input name="weapon" class="weapon" type="text" placeholder="Lightsaber">				
+
+				<label for="label">COMMENTS</label>
+				<textarea name="comments" class="comments" placeholder=""></textarea>
+				
+				<input class="button" name="button" type="submit" value="Submit">	
+	  		</div>			
+		</form>		
+
+	</body>
+
+</html>	
